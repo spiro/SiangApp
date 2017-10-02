@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_account"
+        android:orderInCategory="100"
+        android:title="Account"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_developers"
+        android:orderInCategory="100"
+        android:title="Developers"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_utility"
+        android:orderInCategory="100"
+        android:title="Utilities"
+        app:showAsAction="never" />
+
+</menu>

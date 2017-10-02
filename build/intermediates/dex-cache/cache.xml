@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/inspiro/Downloads/Boarders-App-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bbee3bb6d7452c898915cd8b94a36be01f3899fb">
+        <dex dex="/home/inspiro/Downloads/Boarders-App-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3e02b6bd5065a85411653be5f982c3c5f685b8f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/inspiro/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/inspiro/Downloads/Boarders-App-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_a1d00a562706412e2032a878534bae6a39222ffa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/inspiro/Downloads/Boarders-App-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/inspiro/Downloads/Boarders-App-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8b45cf42309fb9fc130b838adef5fb0b1dcb4803/classes.dex" />
+    </item>
+
+</items>

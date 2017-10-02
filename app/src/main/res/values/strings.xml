@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Siang</string>
+
+    <string-array name="genre_names">
+        <item>Choose an option</item>
+        <item>Sports Items</item>
+        <item>Music Instruments</item>
+        <item>Technical Items</item>
+
+    </string-array>
+    <string-array name="book_names">
+        <item>All</item>
+        <item>Academics</item>
+        <item>Non-Fiction</item>
+        <item>Fiction</item>
+        <item>Dictionaries</item>
+
+    </string-array>
+
+
+    <string-array name="search">
+        <item>By Name</item>
+        <item>By Roll No.</item>
+        <item>By Room No.</item>
+
+
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="complaint_prompt">Choose a category</string>
+
+    <string-array name="complaint_arrays">
+        <item>Library</item>
+        <item>Mess and Canteen</item>
+        <item>Maintenance</item>
+        <item>General</item>
+
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

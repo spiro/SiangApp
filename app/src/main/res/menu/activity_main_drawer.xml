@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_complaints"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Complaints" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Mess Feedback" />
+        <item
+            android:id="@+id/nav_issue"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Book Issue" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Hostel Map"/>
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Equipments List"/>
+    </group>
+
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_hmc"
+                android:icon="@drawable/ic_menu_share"
+                android:title="HMC" />
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Search" />
+        </menu>
+    </item>
+
+</menu>

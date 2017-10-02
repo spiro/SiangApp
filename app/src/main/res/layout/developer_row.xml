@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/developerImage"
+        android:layout_width="100dp"
+        android:layout_height="117dp"
+        android:layout_margin="5dp"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/kartiky" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/devText"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.46"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="0dp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/divyanshText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.56"
+            android:elevation="2dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:translationX="0dp"
+            android:translationY="0dp" />
+
+        <TextView
+            android:id="@+id/divyanshText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="0.56"
+            android:elevation="2dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:translationX="0dp"
+            android:translationY="0dp" />
+
+        <TextView
+            android:id="@+id/divyanshText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="0.56"
+            android:elevation="2dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:translationX="0dp"
+            android:translationY="0dp" />
+
+    </LinearLayout>
+</LinearLayout>

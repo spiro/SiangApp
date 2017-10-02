@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_complaint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationY="50dp"
+    tools:context=".ComplaintActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/complaints_01" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/complaint_arrays"
+        android:outlineProvider="bounds"
+        android:paddingLeft="0dp"
+        android:paddingStart="0dp"
+        android:prompt="@string/complaint_prompt"
+         />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp"
+        android:layout_weight="1"
+        android:maxHeight="180dp"
+        android:maxWidth="320dp"
+        android:minHeight="180dp"
+        android:minWidth="300dp"
+        app:srcCompat="@color/cardview_light_background" />
+
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_marginBottom="200dp"
+        android:onClick="launchCamera"
+        app:srcCompat="@drawable/ic_menu_camera"
+        android:layout_gravity="bottom|end"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="66dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif"
+        android:text="Post"
+        android:layout_weight="1.5"
+        android:textColor="#fafafa"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/til1"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject"
+            android:maxLines="1"
+            android:ems="10"
+            android:id="@+id/editText3"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til2"
+        android:layout_below="@+id/til1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp">
+
+
+        <EditText
+            android:id="@+id/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:layout_below="@+id/editText3"
+            android:ems="10"
+            android:hint="Description" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>
+
